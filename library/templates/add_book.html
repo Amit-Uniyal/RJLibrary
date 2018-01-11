@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <form action="" id="bookform">
+      Auhor Name: <input type="text" name="author_name">
+      Book Name: <input type="text" name="book_name">
+      <input type="submit">
+    </form>
+    <br>
+    <textarea rows="4" cols="70" name="author_desc" form="usrform">
+    Author Description...</textarea>
+    <br>
+    <textarea rows="4" cols="70" name="book_desc" form="usrform">
+    Book Description...</textarea>
+
+{% endblock %}

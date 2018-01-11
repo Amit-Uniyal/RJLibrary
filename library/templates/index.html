@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>RJ Library Home</h1>
+
+  <p>Welcome to <em>RJ Library</em>,
+    A delivery room for the birth of ideas, a place where history comes to life.</p>
+
+  <br>
+  <p>
+    <span style="font-family: 'Comic Sans MS';  font-size: 30px">
+      “Libraries were full of ideas—perhaps the most dangerous and powerful of all weapons.”<br>
+      <p align="right" style="font-size:20px">― Sarah J. Maas, Throne of Glass</p>
+
+    </span>
+  </p>
+  
+<h3>Our Inventory</h3>
+
+  <p>The library has the following record counts:</p>
+  <ul>
+    <li><strong>Books:</strong> {{ num_books }}</li>
+
+    <li><strong>Authors:</strong> {{ num_authors }}</li>
+  </ul>
+
+{% endblock %}

@@ -1,0 +1,47 @@
+Intial Data to Save:
+
+A delivery room for the birth of ideas, a place where history comes to life
+
+Perhaps no place in any community is so totally democratic as the town library. The only interance requirement is interest
+
+
+
+Mysql:
+	create database:
+		> create database rjlibrary character set utf8;
+	
+	Create User:
+		> create user rjuser@localhost identified by 'rjpassword';
+
+	User Access:
+		> grant all privileges on rjlibrary.* to rjuser@localhost;
+		> flush privileges;
+
+ProjectAdmin:
+    username: root
+    password: root@123
+
+Author:
+    ARoy:
+    Suzanna Arundhati Roy is an Indian author best known for her novel The God of Small Things, which won the Man Booker Prize for Fiction in 1997 and became the biggest-selling book by a non-expatriate Indian author.
+        The God of Small Things
+        The God of Small Things is the debut novel of Indian writer Arundhati Roy. It is a story about the childhood experiences of fraternal twins whose lives are destroyed by the "Love Laws" that lay down "who should be loved, and how.
+
+        The Ministry of Utmost Happiness
+        The Ministry of Utmost Happiness is the second novel by Indian writer Arundhati Roy, published in 2017, twenty years after her debut, The God of Small Things.
+
+    RTagore:
+    Rabindranath Tagore FRAS, also written Ravīndranātha Thākura, sobriquet Gurudev, was an Indian polymath who reshaped Bengali literature and music, as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.
+        Gitanjali
+        Gitanjali is a collection of poems by the Bengali poet Rabindranath Tagore. Tagore received the Nobel Prize for Literature, largely for the book. And is part of the Collection from the UNESCO of Representative Works.
+
+        The Home and the World
+        The Home and the World' is a 1916 novel by Rabindranath Tagore. The book illustrates the battle Tagore had with himself, between the ideas of Western culture and revolution against the Western culture.
+
+    RKNarayan:
+    R. K. Narayan, full name Rasipuram Krishnaswami Iyer Narayanaswami, was an Indian writer known for his works set in the fictional South Indian town of Malgudi
+        Malgudi Days
+        Malgudi Days is a collection of short stories by R. K. Narayan published in 1943 by Indian Thought Publications. The book was republished outside India in 1982 by Penguin Classics.
+
+        Swami and Friends
+        Swami and Friends is the first of a trilogy of novels written by R. K. Narayan, English language novelist from India. The novel, Narayan's first, is set in British India in a fictional town called Malgudi.
