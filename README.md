@@ -1,9 +1,11 @@
 # RJLibrary
 Django Library Web App
+Django version: 2.0.1
 
 Steps to run server.
 
 Install MySQL:
+	version: 5.5
 
 	$ sudo apt-get update
 	$ sudo apt-get install python-pip python-dev mysql-server libmysqlclient-dev
